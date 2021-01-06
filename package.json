@@ -1,0 +1,28 @@
+{
+  "name": "monaco-lsp-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@codingame/monaco-jsonrpc": "^0.3.0",
+    "circular-dependency-plugin": "^5.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "monaco-editor": "^0.21.2",
+    "monaco-editor-webpack-plugin": "^2.1.0",
+    "monaco-languageclient": "^0.13.1-next.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
